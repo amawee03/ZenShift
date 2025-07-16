@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>ReqLeaveServlet</servlet-name>
+		<servlet-class>com.oop.staffManagement.ReqLeaveServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ReqLeaveServlet</servlet-name>
+		<url-pattern>/ReqLeaveServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>LeaveAllServlet</servlet-name>
+		<servlet-class>com.oop.staffManagement.LeaveAllServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>LeaveAllServlet</servlet-name>
+		<url-pattern>/LeaveAllServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ReqLevUpdateServlet</servlet-name>
+		<servlet-class>com.oop.staffManagement.ReqLevUpdateServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ReqLevUpdateServlet</servlet-name>
+		<url-pattern>/ReqLevUpdateServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ReqLevDeleteServlet</servlet-name>
+		<servlet-class>com.oop.staffManagement.ReqLevDeleteServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ReqLevDeleteServlet</servlet-name>
+		<url-pattern>/ReqLevDeleteServlet</url-pattern>
+	</servlet-mapping>
+	
+	</web-app>

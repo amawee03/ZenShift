@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.container-fluid.px-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+}
+     html {
+        
+    }
+    body {
+        font-size: 1rem; /* Use base size */
+        font-family: 'Roboto', sans-serif;
+    }
+        .sidebar {
+            min-height: 100vh;
+            background-color: #343a40;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #495057;
+        }
+        .sidebar a.active {
+            background-color: #007bff;
+        }
+        .content {
+            padding: 20px;
+        }
+        .stat-card {
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        .stat-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .recent-activity {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .activity-item {
+            padding: 10px;
+            border-left: 3px solid #007bff;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+        }
+        .quick-actions .btn {
+            margin-bottom: 10px;
+            width: 100%;
+        }

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* Hero Section */
+  html {
+        font-size: 16px; 
+    }
+body{
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 1rem; 
+}
+.hero-section {
+    background: linear-gradient(135deg, #1abc9c, #16a085);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px 80px 20px;
+}
+
+.hero-section h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: #fff;
+    color: #1abc9c;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.cta-btn:hover {
+    background: #16a085;
+    color: #fff;
+}
+
+/* About Section */
+.about-section, .contact-section {
+    text-align: center;
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h2, .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Features Section */
+.features-section {
+    background: #f1f3f4;
+    padding: 60px 20px;
+    
+}
+
+
+.features-section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.feature-item {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-item i {
+    font-size: 36px;
+    color: #1abc9c;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.feature-item:hover {
+    transform: translateY(-10px); /* Moves the feature block up */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Darker and bigger shadow */
+    color: #1abc9c;
+}
+

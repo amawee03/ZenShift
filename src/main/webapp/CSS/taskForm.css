@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.assign-task-section {
+    max-width: 500px;
+    margin: 120px auto 80px auto;
+    background: #fff;
+    padding: 32px 36px 28px 36px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+    font-family: 'Noto Serif Georgian', serif;
+  }
+  
+  .assign-task-section h2 {
+    text-align: center;
+    color: #2C3E50;
+    margin-bottom: 28px;
+    font-size: 26px;
+    letter-spacing: 1px;
+  }
+  
+  .assign-task-form .task-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .assign-task-form label {
+    display: block;
+    font-weight: 600;
+    color: #34495E;
+    margin-bottom: 7px;
+    font-size: 15px;
+  }
+  
+  .assign-task-form label i {
+    margin-right: 7px;
+    color: #1ABC9C;
+  }
+  
+  .assign-task-form input,
+  .assign-task-form textarea,
+  .assign-task-form select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ECF0F1;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: inherit;
+    background: #FDFEFE;
+    color: #2C3E50;
+    transition: border 0.2s;
+    box-sizing: border-box;
+  }
+  
+  .assign-task-form input:focus,
+  .assign-task-form textarea:focus,
+  .assign-task-form select:focus {
+    border-color: #1ABC9C;
+    outline: none;
+  }
+  
+  .assign-task-form textarea {
+    resize: vertical;
+    min-height: 60px;
+    max-height: 180px;
+  }
+  
+  .task-submit-btn {
+    width: 100%;
+    background: #1ABC9C;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+  }
+  
+  .task-submit-btn:hover {
+    background: #16a085;
+  }
+  

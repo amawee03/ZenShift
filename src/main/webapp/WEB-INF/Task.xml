@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+	
+
+     <servlet>
+     	<servlet-name>InsertTaskServlet</servlet-name>
+     	<servlet-class>com.oop.staffManagement.InsertTaskServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>InsertTaskServlet</servlet-name>
+     	<url-pattern>/InsertTaskServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+     <!--GetAllTasks  -->
+     <servlet>
+     	<servlet-name>GetAllTasks</servlet-name>
+     	<servlet-class>com.oop.staffManagement.GetAllTasks</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>GetAllTasks</servlet-name>
+     	<url-pattern>/GetAllTasks</url-pattern>
+     </servlet-mapping>
+     
+     <!--Update Tasks  -->
+     <servlet>
+     	<servlet-name>UpdateTaskServlet</servlet-name>
+     	<servlet-class>com.oop.staffManagement.UpdateTaskServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateTaskServlet</servlet-name>
+     	<url-pattern>/UpdateTaskServlet</url-pattern>
+     </servlet-mapping>
+     
+       <!--Delete Tasks  -->
+     <servlet>
+     	<servlet-name>DeleteTaskServlet</servlet-name>
+     	<servlet-class>com.oop.staffManagement.DeleteTaskServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>DeleteTaskServlet</servlet-name>
+     	<url-pattern>/DeleteTaskServlet</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>ViewTaskServlet</servlet-name>
+     	<servlet-class>com.oop.staffManagement.ViewTaskServlet</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>ViewTaskServlet</servlet-name>
+     	<url-pattern>/ViewTaskServlet</url-pattern>
+     </servlet-mapping>
+     
+     
+
+</web-app>
